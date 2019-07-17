@@ -10,7 +10,7 @@ The project was built using the following stack:
 # How to build?
 
 1. Identify a folder in local disk where the project needs to be cloned. cd to that folder. Referring the folder as <INSTALL_ROOT>
-2. execute: git clone git clone https://github.com/pratyushtarar/myrepo.git
+2. execute: git clone https://github.com/pratyushtarar/myrepo.git
 3. cd myrepo
 4. mvn clean install
 
