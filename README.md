@@ -37,12 +37,12 @@ Following is a command that has been used to generate the output (can use those 
 where PATH_TO_FOLDER = the path of the folder containing GZ files. The program expects the gz file as input.
 
 This will run and print the status in the console. For the set of following setting, the execution was completed in < 4 min.
-*arg 1 = 1000
-*arg 2 = 20
-*arg 3 = 15
-*arg 4 = 6000
-*arg 5 = 1000
-*arg 6 = <PATH_TO_FOLDER>
+* arg 1 = 1000
+* arg 2 = 20
+* arg 3 = 15
+* arg 4 = 6000
+* arg 5 = 1000
+* arg 6 = <PATH_TO_FOLDER>
 
 # How to interpret the console output (status)
 
