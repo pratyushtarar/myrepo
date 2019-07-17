@@ -30,7 +30,7 @@ or
 refer to the main method documentation section of com.myrepo.exercise.UrlProcessingController.java
 
 Following is a command that has been used to generate the output (can use those arguments for the run):
-**java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar 1000 20 15 6000 1000 /Users/pratyusht/Downloads/URLFileProcessorAssignment/inputData **
+**java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar 1000 20 15 6000 1000 /Users/pratyusht/Downloads/URLFileProcessorAssignment/inputData**
 
 This will run and print the status in the console.
 
