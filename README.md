@@ -3,7 +3,9 @@
 The project was built using the following stack:
 1. Maven - 3.6.1
 2. Java -  1.8.0_221
-3. MacOS Mojave (10.14.5)
+3. OS: MacOS Mojave (10.14.5)
+4. IDE: Eclipse Version: 2019-06 (4.12.0)
+
 
 # How to build?
 
