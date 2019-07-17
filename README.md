@@ -26,11 +26,14 @@ This will create executable jar file under the folder "target", created after th
 4. Run the executable jar file using the following command:
 5. Next step is to run the executable jar file. There are 6 arguments that the executable jar file takes. For detailed explanation of the  six arguments, either run the command: 
 **java -jar target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar** 
+
 or 
+
 refer to the main method documentation section of com.myrepo.exercise.UrlProcessingController.java
 
 Following is a command that has been used to generate the output (can use those arguments for the run):
 **java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar 1000 20 15 6000 1000 <PATH_TO_FOLDER>**
+
 where PATH_TO_FOLDER = the path of the folder containing GZ files. The program expects the gz file as input.
 
 This will run and print the status in the console.
@@ -39,10 +42,15 @@ This will run and print the status in the console.
 
 There will be two reports that will be printed on the console:
 
-1st report: This is the status of execution reported every 20 seconds. This realtime view of the progress (for logic refer to com.myrepo..exercise.StatusDaemon). In this report, the details will be:
+1st report: 
+
+This is the status of execution reported every 20 seconds. This realtime view of the progress (for logic refer to com.myrepo..exercise.StatusDaemon). In this report, the details will be:
+
 name of file, status of processing (Refer com.myrepo.exercise.PorcessingStatus.java for list of statuses), % processing completed, succeeded requests (200 ok http response), failed requests (not 200 ok responses), and total records in the file
 
-2nd report: This is the final execution report when all the files have been completely processed. The details of this report are:
+2nd report: 
+This is the final execution report when all the files have been completely processed. The details of this report are:
+
 Filename, % of total failed (not getting 200 ok response), % of total succeeded (having 200 ok reponse)
  
 
