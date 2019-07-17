@@ -1,7 +1,7 @@
 /*
  * 
  */
-package com.ebay.exercise;
+package com.myrepo.exercise;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

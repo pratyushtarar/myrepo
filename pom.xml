@@ -45,7 +45,7 @@
                 <archive>
                 <manifest>
                     <mainClass>
-                        com.ebay.exercise.UrlProcessingController
+                        com.myrepo.exercise.UrlProcessingController
                     </mainClass>
                 </manifest>
                 </archive>

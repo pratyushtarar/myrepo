@@ -1,7 +1,7 @@
 /*
  * 
  */
-package com.ebay.exercise;
+package com.myrepo.exercise;
 
 import java.text.DecimalFormat;
 import java.util.HashMap;

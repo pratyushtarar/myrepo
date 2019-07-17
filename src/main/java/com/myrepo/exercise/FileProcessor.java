@@ -1,7 +1,7 @@
 /*
  * 
  */
-package com.ebay.exercise;
+package com.myrepo.exercise;
 
 import java.nio.file.Path;
 import java.util.concurrent.ExecutorService;
