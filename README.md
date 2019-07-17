@@ -31,6 +31,7 @@ This will run and print the status in the console.
 # How to interpret the console output (status)
 
 There will be two reports that will be printed on the console:
+
 1st report: This is the status of execution reported every 20 seconds. This realtime view of the progress (for logic refer to com.myrepo..exercise.StatusDaemon). In this report, the details will be:
 name of file, status of processing (Refer com.myrepo.exercise.PorcessingStatus.java for list of statuses), % processing completed, succeeded requests (200 ok http response), failed requests (not 200 ok responses), and total records in the file
 
