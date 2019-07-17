@@ -42,13 +42,13 @@ This will run and print the status in the console.
 
 There will be two reports that will be printed on the console:
 
-* *1st report:* *
+* *1st report:
 
 This is the status of execution reported every 20 seconds. This realtime view of the progress (for logic refer to com.myrepo.exercise.StatusDaemon). In this report, the details will be:
 
 name of file, status of processing (Refer com.myrepo.exercise.PorcessingStatus.java for list of statuses), % processing completed, succeeded requests (200 ok http response), failed requests (not 200 ok responses), and total records in the file
 
-* *2nd report:* *
+* *2nd report:
 This is the final execution report when all the files have been completely processed. The details of this report are:
 
 Filename, % of total failed (not getting 200 ok response), % of total succeeded (having 200 ok reponse)
