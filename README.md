@@ -12,7 +12,7 @@ The project was built using the following stack:
 3. cd myrepo
 4. mvn clean install
 
-This will create executable jar file under the folder "target", created after the mvn command finishes.
+This will create executable jar file under the folder "target", created after the mvn command finishes. The name of executable jar file is "eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar".
 
 # How to run?
 
@@ -22,12 +22,13 @@ This will create executable jar file under the folder "target", created after th
 2. Extract the input ".gz" files to a path on the local disk. The path upto the folder will be required for execution.
 3. cd to <INSTALL_ROOT>/myrepo. Build to generate executable jar file. (instructions in "how to build" section).
 4. Run the executable jar file using the following command:
-5. Execute the command:
+5. Next step is to run the executable jar file. There are 6 arguments that the executable jar file takes. For detailed explanation of the  six arguments, either run the command: "java -jar target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar" or refer to the main method documentation section of com.myrepo.exercise.UrlProcessingController.java
+Following is a command that has been used to generate the output (can use those arguments for the run):
 java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar 1000 20 15 6000 1000 /Users/pratyusht/Downloads/URLFileProcessorAssignment/inputData
 
 This will run and print the status in the console.
 
-# How to interpret the console output
+# How to interpret the console output (status)
 
 There will be two reports that will be printed on the console:
 1st report: This is the status of execution reported every 20 seconds. This realtime view of the progress (for logic refer to com.myrepo..exercise.StatusDaemon). In this report, the details will be:
