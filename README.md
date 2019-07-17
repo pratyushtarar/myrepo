@@ -14,7 +14,7 @@ The project was built using the following stack:
 
 This will create executable jar file under the folder "target", created after the mvn command finishes.
 
-#How to run?
+# How to run?
 
 1. Start the mock server using the command:
 	java -cp "<INSTALLTION_FOLDER>/mockhttps-1.0-SNAPSHOT/lib/*" com.ebay.ads.https.HttpServer
@@ -27,7 +27,7 @@ java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dep
 
 This will run and print the status in the console.
 
-#How to interpret the console output
+# How to interpret the console output
 
 There will be two reports that will be printed on the console:
 1st report: This is the status of execution reported every 20 seconds. This realtime view of the progress (for logic refer to com.myrepo..exercise.StatusDaemon). In this report, the details will be:
