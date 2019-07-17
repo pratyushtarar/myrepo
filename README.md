@@ -19,14 +19,18 @@ This will create executable jar file under the folder "target", created after th
 # How to run?
 
 1. Start the mock server using the command:
-	java -cp "<INSTALLTION_FOLDER>/mockhttps-1.0-SNAPSHOT/lib/*" com.ebay.ads.https.HttpServer
+	**java -cp "<INSTALLTION_FOLDER>/mockhttps-1.0-SNAPSHOT/lib/*" com.ebay.ads.https.HttpServer**
 	where INSTALLTION_FOLDER = the folder where the tar provided is extracted.
 2. Extract the input ".gz" files to a path on the local disk. The path upto the folder will be required for execution.
 3. cd to <INSTALL_ROOT>/myrepo. Build to generate executable jar file. (instructions in "how to build" section).
 4. Run the executable jar file using the following command:
-5. Next step is to run the executable jar file. There are 6 arguments that the executable jar file takes. For detailed explanation of the  six arguments, either run the command: "java -jar target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar" or refer to the main method documentation section of com.myrepo.exercise.UrlProcessingController.java
+5. Next step is to run the executable jar file. There are 6 arguments that the executable jar file takes. For detailed explanation of the  six arguments, either run the command: 
+**java -jar target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar** 
+or 
+refer to the main method documentation section of com.myrepo.exercise.UrlProcessingController.java
+
 Following is a command that has been used to generate the output (can use those arguments for the run):
-java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar 1000 20 15 6000 1000 /Users/pratyusht/Downloads/URLFileProcessorAssignment/inputData
+**java -jar <INSTALL_ROOT>/myrepo/target/eval_exercise-0.0.1-SNAPSHOT-jar-with-dependencies.jar 1000 20 15 6000 1000 /Users/pratyusht/Downloads/URLFileProcessorAssignment/inputData **
 
 This will run and print the status in the console.
 
