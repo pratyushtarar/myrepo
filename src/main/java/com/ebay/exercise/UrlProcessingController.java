@@ -1,6 +1,3 @@
-/*
- * 
- */
 package com.ebay.exercise;
 
 import java.io.BufferedReader;
