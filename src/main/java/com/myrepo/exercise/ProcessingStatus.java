@@ -1,20 +1,18 @@
-/*
- * 
- */
 package com.myrepo.exercise;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Enum ProcessingStatus.
+ * 
+ * @author ptarar
  */
 public enum ProcessingStatus {
 
-	/** The processing. */
+	/** The processing status. */
 	PROCESSING,
 	
-	/** The done. */
+	/** The done status. */
 	DONE,
 	
-	/** The unprocessed. */
+	/** The unprocessed status. */
 	UNPROCESSED
 }

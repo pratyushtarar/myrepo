@@ -1,6 +1,3 @@
-/*
- * 
- */
 package com.myrepo.exercise;
 
 import java.text.DecimalFormat;
@@ -12,6 +9,8 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * Singleton class which acts as in-memory cache. All threads in the application will get access to one single 
  * instance of this Cache class. To make it update of cache thread-safe, ConcurrentHashMap is used where ever applicable.
+ * 
+ * @author ptarar
  */
 public class Cache {
 	

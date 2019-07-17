@@ -1,6 +1,3 @@
-/*
- * 
- */
 package com.myrepo.exercise;
 
 import java.text.DecimalFormat;
@@ -9,6 +6,8 @@ import java.util.Calendar;
 /**
  * The Class StatusDaemon which regularly prints out the status of the execution which includes progress %. 
  * Once the thread execution completes, it gives a final summary.
+ * 
+ * @author ptarar
  */
 public class StatusDaemon implements Runnable {
 

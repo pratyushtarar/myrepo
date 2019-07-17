@@ -1,6 +1,3 @@
-/*
- * 
- */
 package com.myrepo.exercise;
 
 import java.io.BufferedReader;
@@ -20,6 +17,8 @@ import org.apache.http.protocol.HTTP;
 /**
  * The Class UrlProcessor. The thread that processes a set of lines of a specific file. What lines are processed by this thread 
  * are provided as the input to this thread.
+ * 
+ * @author ptarar
  */
 public class UrlProcessor implements Runnable {
 
@@ -58,7 +57,7 @@ public class UrlProcessor implements Runnable {
 	}
 
 	/**
-	 * Run.
+	 * Run method of thread.
 	 */
 	public void run() {
 		BufferedReader bufferedReader = null;

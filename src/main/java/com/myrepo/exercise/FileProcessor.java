@@ -1,6 +1,3 @@
-/*
- * 
- */
 package com.myrepo.exercise;
 
 import java.nio.file.Path;
@@ -12,6 +9,8 @@ import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 /**
  * The Class FileProcessor. Each gz file will have dedicated thread implemented in this FileProcessor class.
  * The FileProcessor will in spawn parallel threads up to the LIMIT to process the file.
+ * 
+ * @author ptarar
  */
 public class FileProcessor implements Runnable {
 	
